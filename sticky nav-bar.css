@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+.top-container{
+    background: ;
+    background-image: url("https://images.unsplash.com/photo-1560457079-9a6532ccb118?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.top-container h1{
+    font-size: 50px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+.text{
+    margin: 50px 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .4);
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-family: cursive;
+}
+.navbar ul li a:hover{
+    color: blue;
+}
+.navbar.active{
+    background-color: black;
+}
+.navbar.active li a{
+    color: greenyellow;
+}
